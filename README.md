@@ -7,8 +7,9 @@ Using JWT for Authentication and Authorization (Token based Authentication with 
 
 Technology :
 - Java
-- Angular
 - Spring Boot 3 (Spring Security, Spring Web, Spring Data JPA)
+- Angular
+- Bootstrap 5
 - JJWT
 - MySQL
 - Maven
