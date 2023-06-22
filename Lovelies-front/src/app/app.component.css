@@ -1,0 +1,18 @@
+.navbar-nav.ml-auto li.nav-item {
+    margin-right: 10px; /* Adjust the value as needed */
+  }
+
+  .nav-link {
+    margin-top: 2px; /* Adjust the value as needed */
+  }
+
+  @media (max-width: 991.98px) {
+    .navbar-nav {
+      margin-top: 10px;
+    }
+    
+    .navbar-nav .nav-item {
+      margin-bottom: 10px;
+    }
+  }
+  

@@ -1,0 +1,23 @@
+<section class="py-5">
+  <div class="container" *ngIf="currentUser; else loggedOut">
+      <div class="bg-dark border rounded border-dark d-flex flex-column justify-content-between align-items-center flex-lg-row p-4 p-lg-5">
+          <div class="text-center text-lg-start py-3 py-lg-1">
+            <h2 class="mb-2"><strong><span class="text-success">{{ currentUser.username }}'s</span></strong> Profile</h2>
+              <div class="card shadown-sm">
+            <div class="card-body px-4 px-md-5">
+            <p class="mb-0"><strong><span class="text-success">Email: </span></strong> {{ currentUser.email }}</p>
+          </div>
+      </div>
+      <div class="card shadown-sm">
+          <div class="card-body px-4 px-md-5">
+            <p class="mb-0"><strong><span class="text-success">Role(s): </span></strong> {{ currentUser.roles }}</p>
+          </div>
+        </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+<ng-template #loggedOut>
+  Please login.
+</ng-template>

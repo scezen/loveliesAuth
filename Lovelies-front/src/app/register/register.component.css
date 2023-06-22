@@ -1,0 +1,12 @@
+/* Select the input element with the "form-control" class */
+.form-control::placeholder {
+    /* Set the color and opacity of the placeholder text */
+    color: #999;
+    opacity: 0.4; /* Adjust the opacity as needed */
+    text-align: center;
+  }
+
+  .mb-4 {
+margin-bottom: 0.5rem !important;
+}
+  
