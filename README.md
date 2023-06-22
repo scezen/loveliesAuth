@@ -14,4 +14,7 @@ Technology :
 - MySQL
 - Maven
 
-  ![alt text](https://github.com/scezen/loveliesAuth/blob/master/Profile.png?raw=true)
+
+![alt text](https://github.com/scezen/loveliesAuth/blob/master/Login.png?raw=true)
+
+![alt text](https://github.com/scezen/loveliesAuth/blob/master/Profile.png?raw=true)
